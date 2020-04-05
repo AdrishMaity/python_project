@@ -1,3 +1,5 @@
 import numpy as np
 
-print(np.array([v**2 for v in range(10)])
+new_list = [v**2 for v in range(10)]
+
+print(np.array(new_list))
